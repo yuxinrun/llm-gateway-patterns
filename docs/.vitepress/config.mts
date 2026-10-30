@@ -13,6 +13,11 @@ export default withMermaid(
     base,
     lang: 'zh-CN',
     lastUpdated: true,
+    vite: {
+      optimizeDeps: {
+        include: ['mermaid']
+      }
+    },
     head: [
       ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}logo.svg` }],
       ['meta', { name: 'theme-color', content: '#0f766e' }],
@@ -37,7 +42,7 @@ export default withMermaid(
           sidebar: enSidebar,
           outline: { level: [2, 3], label: 'On this page' },
           footer: {
-            message: 'MIT Licensed · Patterns over API docs',
+            message: '鱼心快跑，Bug 追不上 · MIT Licensed · Patterns over API docs',
             copyright: 'Copyright © 2026 yuxinrun'
           },
           lastUpdated: {
@@ -72,7 +77,7 @@ export default withMermaid(
       outline: { level: [2, 3], label: '本页目录' },
       socialLinks: [{ icon: 'github', link: repo, ariaLabel: 'GitHub' }],
       footer: {
-        message: 'MIT Licensed · 讲模式，不堆接口文档',
+        message: '鱼心快跑，Bug 追不上 · MIT Licensed · 讲模式，不堆接口文档',
         copyright: 'Copyright © 2026 yuxinrun'
       },
       lastUpdated: {

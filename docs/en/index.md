@@ -76,3 +76,5 @@ features:
 ### What this site is not
 
 It does not replace official API docs, teach your first prompt, or promise “every model supported”. It answers one question: **what must be engineered before model calls are production-ready.**
+
+<BrandBanner />
