@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-labelledby="hero-title-light">
+  <title id="hero-title-light">An LLM gateway routing requests from agents and backend apps to OpenAI, Claude and Gemini</title>
+  <defs>
+    <linearGradient id="accent-light" x1="176" y1="100" x2="336" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+    <marker id="arrow-light" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <rect x="4" y="4" width="472" height="352" rx="24" fill="#F8FAFC" stroke="#E2E8F0"/>
+
+  <g fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="3 6" marker-end="url(#arrow-light)">
+    <path d="M128 113C150 113 154 140 176 148"/>
+    <path d="M128 243C150 243 154 222 176 216"/>
+    <path d="M336 142C356 142 356 102 376 97"/>
+    <path d="M336 180H376"/>
+    <path d="M336 218C356 218 356 254 376 259"/>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <g>
+      <rect x="24" y="84" width="104" height="58" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="76" y="109" text-anchor="middle" font-size="15" font-weight="600" fill="#0F172A">Agent</text>
+      <text x="76" y="127" text-anchor="middle" font-size="11" fill="#64748B">planning</text>
+    </g>
+    <g>
+      <rect x="24" y="214" width="104" height="58" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="76" y="239" text-anchor="middle" font-size="15" font-weight="600" fill="#0F172A">Backend</text>
+      <text x="76" y="257" text-anchor="middle" font-size="11" fill="#64748B">RAG / API</text>
+    </g>
+
+    <rect x="176" y="100" width="160" height="160" rx="22" fill="#FFFFFF" stroke="url(#accent-light)" stroke-width="2"/>
+    <text x="256" y="178" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="1" fill="#0F172A">LLM</text>
+    <text x="256" y="202" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="3.5" fill="#64748B">GATEWAY</text>
+    <path d="M204 230h18l7-13 10 26 7-13h26" fill="none" stroke="#0F766E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="256" y="292" text-anchor="middle" font-size="13" fill="#475569">route · cache · quota</text>
+
+    <g>
+      <rect x="376" y="74" width="80" height="46" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="416" y="103" text-anchor="middle" font-size="14" font-weight="600" fill="#0F172A">OpenAI</text>
+    </g>
+    <g>
+      <rect x="376" y="157" width="80" height="46" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="416" y="186" text-anchor="middle" font-size="14" font-weight="600" fill="#0F172A">Claude</text>
+    </g>
+    <g>
+      <rect x="376" y="236" width="80" height="46" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="416" y="265" text-anchor="middle" font-size="14" font-weight="600" fill="#0F172A">Gemini</text>
+    </g>
+  </g>
+</svg>

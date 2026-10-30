@@ -1,0 +1,132 @@
+:root {
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #14b8a6;
+  --vp-c-brand-soft: rgba(13, 148, 136, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0f766e 5%, #4338ca 95%);
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+}
+
+.dark {
+  --vp-c-brand-1: #5eead4;
+  --vp-c-brand-2: #2dd4bf;
+  --vp-c-brand-3: #99f6e4;
+  --vp-c-brand-soft: rgba(45, 212, 191, 0.16);
+
+  --vp-home-hero-name-background: linear-gradient(120deg, #5eead4 5%, #a5b4fc 95%);
+}
+
+.VPHero .image-bg {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    width: 380px;
+    height: 300px;
+  }
+
+  .VPHero .VPImage {
+    max-width: 380px;
+    max-height: 320px;
+  }
+}
+
+.VPHome .home-block {
+  margin-top: 64px;
+}
+
+.VPHome .home-block.chapters {
+  margin-top: 56px;
+}
+
+.VPHome .vp-doc > h2 {
+  margin-top: 64px;
+}
+
+.VPHome .vp-doc > h3 {
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .VPHome .home-block {
+    margin-top: 48px;
+  }
+}
+
+/* Chapter accent colors: four-segment palette, tuned for both themes. */
+.chapter-card.c0 {
+  --chapter: #0f766e;
+}
+.chapter-card.c1 {
+  --chapter: #4338ca;
+}
+.chapter-card.c2 {
+  --chapter: #b45309;
+}
+.chapter-card.c3 {
+  --chapter: #be123c;
+}
+.chapter-card.c4 {
+  --chapter: #0e7490;
+}
+.chapter-card.c5 {
+  --chapter: #6d28d9;
+}
+.chapter-card.c6 {
+  --chapter: #4d7c0f;
+}
+.chapter-card.c7 {
+  --chapter: #475569;
+}
+
+.dark .chapter-card.c0 {
+  --chapter: #5eead4;
+}
+.dark .chapter-card.c1 {
+  --chapter: #a5b4fc;
+}
+.dark .chapter-card.c2 {
+  --chapter: #fcd34d;
+}
+.dark .chapter-card.c3 {
+  --chapter: #fda4af;
+}
+.dark .chapter-card.c4 {
+  --chapter: #67e8f9;
+}
+.dark .chapter-card.c5 {
+  --chapter: #c4b5fd;
+}
+.dark .chapter-card.c6 {
+  --chapter: #bef264;
+}
+.dark .chapter-card.c7 {
+  --chapter: #cbd5e1;
+}
+
+.vp-doc a {
+  text-underline-offset: 2px;
+}
+
+.vp-doc .custom-block {
+  border-radius: 10px;
+}
+
+.vp-doc table {
+  font-size: 14px;
+}
+
+.vp-doc .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table {
+    font-size: 13px;
+  }
+}
